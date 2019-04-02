@@ -1,0 +1,29 @@
+{
+  "name": "Mern-stack",
+  "version": "1.0.0",
+  "description": "Arquitectura Mern",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DairoArley/Mern-stack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DairoArley/Mern-stack/issues"
+  },
+  "homepage": "https://github.com/DairoArley/Mern-stack#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongoose": "^5.4.20",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
